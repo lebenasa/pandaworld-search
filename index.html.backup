@@ -12,7 +12,6 @@
     <link href="jumbotron.css" rel="stylesheet">
 
   </head>
-
   <body>
     <nav class="navbar navbar-inverse navbar-fixed-top">
       <div class="container">
@@ -24,24 +23,43 @@
             <span class="icon-bar"></span>
           </button>
           <a class="navbar-brand" href="#">Panda World</a>
+          <a class="navbar-brand" href="#">About</a>
+          <a class="navbar-brand" href="#">Habitat</a>
+          <a class="navbar-brand" href="#">Behavior</a>
+          <a class="navbar-brand" href="#">Diet</a>
         </div>
       </div>
     </nav>
 
     <div class="jumbotron">
       <div class="container">
-        <h1>Search Panda World</h1>
-        <form role="search" method="get" class="search-form form-inline" action="https://pandaworldweb.wordpress.com/">
-          <div class="form-group">
-            <input type="search" class="search-field form-control" placeholder="Search Term" value="" name="s" />
-          <button class="btn btn-default form-control" href="#" role="button">Search</button>
-          </div>
-        </form>
+        <h1>Panda World Website</h1>
+        <p>Panda is a wonderful animal! Let's learn more about them.</p>
+      <p><a class="btn btn-primary btn-lg" href="#" role="button">Get started! &raquo;</a></p>
       </div>
     </div>
 
     <div class="container">
-      
+      <div class="row">
+        <div class="col-md-4">
+          <h2>About Panda</h2>
+          <p>Panda is a giant herbivore. Let's learn more about them.</p>
+          <p><a class="btn btn-default" href="#" role="button">Learn More! &raquo;</a></p>
+        </div>
+        <div class="col-md-4">
+          <h2>Edit post</h2>
+          <p>Although rather plain, user can create a blog post using HTML markup. We'll try to let them use Markdown later.</p>
+          <p><a class="btn btn-default" href="#" role="button">See it in action! &raquo;</a></p>
+        </div>
+        <div class="col-md-4">
+          <form role="search" method="get" class="search-form" action="https://pandaworldweb.wordpress.com/">
+            <label>
+              <input type="search" class="search-field" placeholder="Search Term" value="" name="s" />
+            </label>
+          </form>
+        </div>
+      </div>
+
     <hr>
 
       <footer>
