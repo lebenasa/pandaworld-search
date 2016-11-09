@@ -1,58 +1,601 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
-    <title>Panda World</title>
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="profile" href="http://gmpg.org/xfn/11">
+<link rel="pingback" href="https://pandaworldweb.wordpress.com/xmlrpc.php">
 
-    <!-- Bootstrap -->
-    <link href="css/bootstrap.min.css" rel="stylesheet">
-    <link href="jumbotron.css" rel="stylesheet">
+<title>Panda World &#8211; Stay Foolish, Stay Hungry</title>
+<link rel='dns-prefetch' href='//s2.wp.com' />
+<link rel='dns-prefetch' href='//s0.wp.com' />
+<link rel='dns-prefetch' href='//s1.wp.com' />
+<link rel='dns-prefetch' href='//fonts.googleapis.com' />
+<link rel="alternate" type="application/rss+xml" title="Panda World &raquo; Feed" href="https://pandaworldweb.wordpress.com/feed/" />
+<link rel="alternate" type="application/rss+xml" title="Panda World &raquo; Comments Feed" href="https://pandaworldweb.wordpress.com/comments/feed/" />
+	<script type="text/javascript">
+		/* <![CDATA[ */
+		function addLoadEvent(func) {
+			var oldonload = window.onload;
+			if (typeof window.onload != 'function') {
+				window.onload = func;
+			} else {
+				window.onload = function () {
+					oldonload();
+					func();
+				}
+			}
+		}
+		/* ]]> */
+	</script>
+			<script type="text/javascript">
+			window._wpemojiSettings = {"baseUrl":"https:\/\/s0.wp.com\/wp-content\/mu-plugins\/wpcom-smileys\/twemoji\/2\/72x72\/","ext":".png","svgUrl":"https:\/\/s0.wp.com\/wp-content\/mu-plugins\/wpcom-smileys\/twemoji\/2\/svg\/","svgExt":".svg","source":{"concatemoji":"https:\/\/s1.wp.com\/wp-includes\/js\/wp-emoji-release.min.js?m=1473172720h&ver=4.6.1-RC1-38499"}};
+			!function(a,b,c){function d(a){var c,d,e,f,g,h=b.createElement("canvas"),i=h.getContext&&h.getContext("2d"),j=String.fromCharCode;if(!i||!i.fillText)return!1;switch(i.textBaseline="top",i.font="600 32px Arial",a){case"flag":return i.fillText(j(55356,56806,55356,56826),0,0),!(h.toDataURL().length<3e3)&&(i.clearRect(0,0,h.width,h.height),i.fillText(j(55356,57331,65039,8205,55356,57096),0,0),c=h.toDataURL(),i.clearRect(0,0,h.width,h.height),i.fillText(j(55356,57331,55356,57096),0,0),d=h.toDataURL(),c!==d);case"diversity":return i.fillText(j(55356,57221),0,0),e=i.getImageData(16,16,1,1).data,f=e[0]+","+e[1]+","+e[2]+","+e[3],i.fillText(j(55356,57221,55356,57343),0,0),e=i.getImageData(16,16,1,1).data,g=e[0]+","+e[1]+","+e[2]+","+e[3],f!==g;case"simple":return i.fillText(j(55357,56835),0,0),0!==i.getImageData(16,16,1,1).data[0];case"unicode8":return i.fillText(j(55356,57135),0,0),0!==i.getImageData(16,16,1,1).data[0];case"unicode9":return i.fillText(j(55358,56631),0,0),0!==i.getImageData(16,16,1,1).data[0]}return!1}function e(a){var c=b.createElement("script");c.src=a,c.type="text/javascript",b.getElementsByTagName("head")[0].appendChild(c)}var f,g,h,i;for(i=Array("simple","flag","unicode8","diversity","unicode9"),c.supports={everything:!0,everythingExceptFlag:!0},h=0;h<i.length;h++)c.supports[i[h]]=d(i[h]),c.supports.everything=c.supports.everything&&c.supports[i[h]],"flag"!==i[h]&&(c.supports.everythingExceptFlag=c.supports.everythingExceptFlag&&c.supports[i[h]]);c.supports.everythingExceptFlag=c.supports.everythingExceptFlag&&!c.supports.flag,c.DOMReady=!1,c.readyCallback=function(){c.DOMReady=!0},c.supports.everything||(g=function(){c.readyCallback()},b.addEventListener?(b.addEventListener("DOMContentLoaded",g,!1),a.addEventListener("load",g,!1)):(a.attachEvent("onload",g),b.attachEvent("onreadystatechange",function(){"complete"===b.readyState&&c.readyCallback()})),f=c.source||{},f.concatemoji?e(f.concatemoji):f.wpemoji&&f.twemoji&&(e(f.twemoji),e(f.wpemoji)))}(window,document,window._wpemojiSettings);
+		</script>
+		<style type="text/css">
+img.wp-smiley,
+img.emoji {
+	display: inline !important;
+	border: none !important;
+	box-shadow: none !important;
+	height: 1em !important;
+	width: 1em !important;
+	margin: 0 .07em !important;
+	vertical-align: -0.1em !important;
+	background: none !important;
+	padding: 0 !important;
+}
+</style>
+<link rel='stylesheet' id='all-css-0-1' href='https://s1.wp.com/_static/??-eJyFUdFOxDAM+yF61Umw8YL4lrYLt9yatmraG/t7sg2G4FB5mWLXjq1Mz0m5GAqEoqmq5OsFA+s5uUiKCT0sv9DJMT/ov21cLbuMqWAU9Ba9j3NLP8YbZGWrtR7EXRYPhxyD83UQWgg9GB5RFvCJMNxLrqyLvE82vh9DK9fjtLqgJOMmtaGW3AySqqzJn5c48G5CHWLZ2h1Da5uLGYSnZMqqIBjQgAcSWctGqftyreMozZsxe1VrUwZmJV/CSqqMEvRPPVqr7FfZjv+DubPuG3WqVl9Mgdks3z/ylV7Oj/3zU9ef++76AZKm6Qw=' type='text/css' media='all' />
+<link rel='stylesheet' id='gateway-fonts-css'  href='https://fonts.googleapis.com/css?family=Quattrocento%3A400%2C700%7CFanwood+Text%3A400%2C400italic&#038;subset=latin%2Clatin-ext' type='text/css' media='all' />
+<link rel='stylesheet' id='all-css-2-1' href='https://s0.wp.com/_static/??-eJx9z0EOAiEMBdALWRvNGHVhPAuDHcQAJbQjmduLszFqwu7/tm9RrBksJ6WkqHeKJJjnEZ1RqmbBqa0ErciawFQSjrRtgw32pU8WRZdAULPl+EfiDDnMzifBxNqwuUWfYDQFnvvetSOGwNao5/RVYArGlx4tNAZ2Lbr1pU/tIWWBQpmLwsQl/vY3vcbLbjich+F03A2PF+obflw=' type='text/css' media='all' />
+<link rel='stylesheet' id='print-css-3-1' href='https://s0.wp.com/wp-content/mu-plugins/global-print/global-print.css?m=1465851035h' type='text/css' media='print' />
+<link rel='stylesheet' id='all-css-4-1' href='https://s0.wp.com/_static/??-eJx9i9EKwjAMRX/IGGVj80X8lq7WNpI0penY7489OBBxT/ceOAeXAl5zC7mhzFB4jpQN3VMow+QqLsWrwM4gOhGHszc74Z/WN9K8tfs70otagxc7qmjJVcrxs0eVqSfHwBr1G36iloIEw9RjZJ0cb8JD7td+HLruNoyX9wrg62AG' type='text/css' media='all' />
+<script type='text/javascript' src='https://s0.wp.com/_static/??-eJx9kFEKwjAMQC9kV9Q59UM8y1azkdmmtUkdenr7MRFHFQIh5JHkRU9BIRmbLsB6zHFLEB9zqkZe6X+AcjjEVqBySG/YeBIg0S6pYNOAxJpTxyZiEPS56r21flrieXTwLA6Y2wEKXec7tKASQ8wASb6q9wXu2wDpjlBathAFCa25qgiMTyh5c/go/n7YTJ3daV03zW6zPe4P4wtJVYVE'></script>
+<link rel="EditURI" type="application/rsd+xml" title="RSD" href="https://pandaworldweb.wordpress.com/xmlrpc.php?rsd" />
+<link rel="wlwmanifest" type="application/wlwmanifest+xml" href="https://s1.wp.com/wp-includes/wlwmanifest.xml" /> 
+<meta name="generator" content="WordPress.com" />
+<link rel="canonical" href="https://pandaworldweb.wordpress.com/" />
+<link rel='shortlink' href='http://wp.me/P85tkH-2' />
+<link rel="alternate" type="application/json+oembed" href="https://public-api.wordpress.com/oembed/1.0/?format=json&amp;url=https%3A%2F%2Fpandaworldweb.wordpress.com%2F&amp;for=wpcom-auto-discovery" /><link rel="alternate" type="application/xml+oembed" href="https://public-api.wordpress.com/oembed/1.0/?format=xml&amp;url=https%3A%2F%2Fpandaworldweb.wordpress.com%2F&amp;for=wpcom-auto-discovery" />
+<!-- Jetpack Open Graph Tags -->
+<meta property="og:type" content="website" />
+<meta property="og:title" content="Panda World" />
+<meta property="og:description" content="Stay Foolish, Stay Hungry" />
+<meta property="og:url" content="https://pandaworldweb.wordpress.com/" />
+<meta property="og:site_name" content="Panda World" />
+<meta property="og:image" content="https://s0.wp.com/i/blank.jpg" />
+<meta property="og:locale" content="en_US" />
+<meta name="twitter:site" content="@wordpressdotcom" />
+<meta name="twitter:card" content="summary" />
+<meta property="fb:app_id" content="249643311490" />
+<meta property="article:publisher" content="https://www.facebook.com/WordPresscom" />
+<link rel="shortcut icon" type="image/x-icon" href="https://s2.wp.com/i/favicon.ico" sizes="16x16 24x24 32x32 48x48" />
+<link rel="icon" type="image/x-icon" href="https://s2.wp.com/i/favicon.ico" sizes="16x16 24x24 32x32 48x48" />
+<link rel="apple-touch-icon-precomposed" href="https://s0.wp.com/i/webclip.png" />
+<link rel="search" type="application/opensearchdescription+xml" href="https://pandaworldweb.wordpress.com/osd.xml" title="Panda World" />
+<link rel="search" type="application/opensearchdescription+xml" href="https://s1.wp.com/opensearch.xml" title="WordPress.com" />
+<meta name="theme-color" content="#010505" />
+<meta name="application-name" content="Panda World" /><meta name="msapplication-window" content="width=device-width;height=device-height" /><meta name="msapplication-tooltip" content="Stay Foolish, Stay Hungry" /><meta name="msapplication-task" content="name=Edit page;action-uri=https://wordpress.com/page/pandaworldweb.wordpress.com/2;icon-uri=https://s0.wp.com/i/icons/page.ico" /><meta name="msapplication-task" content="name=Write a post;action-uri=https://wordpress.com/post/pandaworldweb.wordpress.com;icon-uri=https://s2.wp.com/i/icons/post.ico" /><meta name="msapplication-task" content="name=Moderate comments;action-uri=https://pandaworldweb.wordpress.com/wp-admin/edit-comments.php?comment_status=moderated;icon-uri=https://s0.wp.com/i/icons/comment.ico" /><meta name="msapplication-task" content="name=Upload new media;action-uri=https://pandaworldweb.wordpress.com/wp-admin/media-new.php;icon-uri=https://s2.wp.com/i/icons/media.ico" /><meta name="msapplication-task" content="name=Blog stats;action-uri=https://pandaworldweb.wordpress.com/wp-admin/index.php?page=stats;icon-uri=https://s1.wp.com/i/icons/stats.ico" /><meta name="title" content="Giant Panda | Panda World on WordPress.com" />
+<meta name="description" content="This is the home page&#039;s excerpt" />
+	<style type="text/css">
+			.site-title a,
+		.site-description {
+			color: #ffffff;
+		}
+	
+			.header-bg {
+			background-image: url( https://pandaworldweb.files.wordpress.com/2016/11/cropped-panda-5panda-on-the-tree.jpeg );
+			background-repeat: no-repeat;
+		}
 
-  </head>
+		@media screen and ( min-width: 50em ) {
+			.header-bg {
+				background-attachment: fixed;
+									background-size: 100%;
+					background-position: top center;
+											}
+		}
+	
+	</style>
+	<style type="text/css" id="custom-background-css">
+body.custom-background { background-color: #010505; }
+</style>
+<style type="text/css" media="print">#wpadminbar { display:none; }</style>
+<style type="text/css" media="screen">
+	html { margin-top: 32px !important; }
+	* html body { margin-top: 32px !important; }
+	@media screen and ( max-width: 782px ) {
+		html { margin-top: 46px !important; }
+		* html body { margin-top: 46px !important; }
+	}
+</style>
+<style type="text/css" id="syntaxhighlighteranchor"></style>
+<style type="text/css" id="custom-colors-css">body,abbr,acronym,.comment-metadata,.comment-metadata a{color:#888}.site-footer{color:#a0a0a0}.widget_wpcom_social_media_icons_widget a:before,button:hover,button:focus,.button:hover,.button:focus,.footer-widgets .widget_tag_cloud a,.footer-widgets .wp_widget_tag_cloud a,.widget_tag_cloud a,.wp_widget_tag_cloud a,.footer-widgets .widget_tag_cloud a:hover,.footer-widgets .wp_widget_tag_cloud a:hover,.widget_tag_cloud a:hover,.wp_widget_tag_cloud a:hover,.site-title a,.site-description,html input[type="button"],input[type="reset"],input[type="submit"],button,.button,#infinite-handle span{color:#fff}.site-footer .search-form input[type="search"]{color:#fff}.widget_wpcom_social_media_icons_widget a:hover before,html input[type="button"]:hover,input[type="reset"]:hover,input[type="submit"]:hover,#infinite-handle span:hover{color:#fff}.entry-footer .left i{color:#d5d5d5}abbr[title],.featured-image img,table,hr,.stick,.main-navigation ul ul{border-color:#ddd}abbr[title],.featured-image img,table,hr,.stick,.main-navigation ul ul{border-color:rgba(221,221,221,.3)}input[type="text"]:focus,input[type="password"]:focus,input[type="date"]:focus,input[type="datetime"]:focus,input[type="datetime-local"]:focus,input[type="month"]:focus,input[type="week"]:focus,input[type="email"]:focus,input[type="number"]:focus,input[type="search"]:focus,input[type="tel"]:focus,input[type="time"]:focus,input[type="url"]:focus,input[type="color"]:focus,textarea:focus{border-color:#999}input[type="text"]:focus,input[type="password"]:focus,input[type="date"]:focus,input[type="datetime"]:focus,input[type="datetime-local"]:focus,input[type="month"]:focus,input[type="week"]:focus,input[type="email"]:focus,input[type="number"]:focus,input[type="search"]:focus,input[type="tel"]:focus,input[type="time"]:focus,input[type="url"]:focus,input[type="color"]:focus,textarea:focus{border-color:rgba(153,153,153,.3)}blockquote,blockquote p{color:#9c9c9c}table tr th,.comment-meta .fn a{color:#7f7f7f}input[type="text"],input[type="password"],input[type="date"],input[type="datetime"],input[type="datetime-local"],input[type="month"],input[type="week"],input[type="email"],input[type="number"],input[type="search"],input[type="tel"],input[type="time"],input[type="url"],input[type="color"],textarea{color:#7f7f7f}table tr td{color:#7f7f7f}.main-navigation a,.single .hentry .right,#infinite-footer .blog-info a,#infinite-footer .blog-credits a{color:#7f7f7f}.main-navigation ul li.menu-item-has-children>a:after,.main-navigation ul li.page_item_has_children>a:after{border-top-color:#7f7f7f}.main-navigation ul ul li.menu-item-has-children>a:after,.main-navigation ul ul li.page_item_has_children>a:after{border-left-color:#7f7f7f}.widget_archive ul,.widget_categories ul,.widget_pages ul,.widget_links ul,.widget_meta ul,.widget_recent_comments ul,.widget_recent_entries ul{color:#bebebe}.main-navigation ul ul a{color:#aaa}.menu-toggle{color:#d6d6d6}code{color:#7f7f7f}.hentry.sticky{background-color:#f7fbff}.hentry.sticky{background-color:rgba(247,251,255,.2)}body,.stick,table,.main-navigation ul ul{background-color:#010505}#infinite-footer .container{background-color:#010505}#infinite-footer .container{background-color:rgba(1,5,5,.9)}input[type="text"]:focus,input[type="password"]:focus,input[type="date"]:focus,input[type="datetime"]:focus,input[type="datetime-local"]:focus,input[type="month"]:focus,input[type="week"]:focus,input[type="email"]:focus,input[type="number"]:focus,input[type="search"]:focus,input[type="tel"]:focus,input[type="time"]:focus,input[type="url"]:focus,input[type="color"]:focus,textarea:focus{background-color:#000}input[type="text"],input[type="password"],input[type="date"],input[type="datetime"],input[type="datetime-local"],input[type="month"],input[type="week"],input[type="email"],input[type="number"],input[type="search"],input[type="tel"],input[type="time"],input[type="url"],input[type="color"],textarea,pre,.comment-body,code,.entry-footer .left,blockquote,table tr.even,table tr.alt,table tr:nth-of-type(even){background-color:#000}code{border-color:#000}blockquote{border-color:#173b4e}.widget_wpcom_social_media_icons_widget a:before,.widget_tag_cloud a,.wp_widget_tag_cloud a,.header-bg,html input[type="button"],input[type="reset"],input[type="submit"],button,.button,#infinite-handle span{background-color:#173b4e}button:hover,button:focus,.button:hover,.button:focus{background-color:#112c3a}#infinite-footer .blog-info a:hover,.main-navigation .current_page_item>a,.main-navigation .current-menu-item>a,.main-navigation .current_page_ancestor>a,.entry-footer .left i:hover,a,a:hover,a:focus,.main-navigation li:hover>a,.main-navigation li.focus>a{color:#2a88bb}.site-info a,.site-info a:hover,.site-info a:focus,.footer-widgets a,.footer-widgets a:hover,.footer-widgets a:focus{color:#54aad8}h1,h2,h3,h4,h5,h6{color:#6a838a}.hentry h1 a,.hentry h2 a,.hentry h3 a,.hentry h4 a,.hentry h5 a{color:#6a838a}.site-footer h1,.site-footer h2,.site-footer h3,.site-footer h4,.site-footer h5,.site-footer h6{color:#91a3aa}</style>
+</head>
 
-  <body>
-    <nav class="navbar navbar-inverse navbar-fixed-top">
-      <div class="container">
-        <div class="navbar-header">
-          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
-            <span class="sr-only">Toggle navigation</span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-          </button>
-          <a class="navbar-brand" href="#">Panda World</a>
-        </div>
-      </div>
-    </nav>
+<body class="home page page-id-2 page-template-default logged-in admin-bar no-customize-support custom-background mp6 customizer-styles-applied group-blog highlander-enabled highlander-light">
 
-    <div class="jumbotron">
-      <div class="container">
-        <h1>Search Panda World</h1>
-        <form role="search" method="get" class="search-form form-inline" action="https://pandaworldweb.wordpress.com/">
-          <div class="form-group">
-            <input type="search" class="search-field form-control" placeholder="Search Term" value="" name="s" />
-          <button class="btn btn-default form-control" href="#" role="button">Search</button>
-          </div>
-        </form>
-      </div>
-    </div>
+<div id="page" class="hfeed site">
+	<a class="skip-link screen-reader-text" href="#content">Skip to content</a>
 
-    <div class="container">
-      
-    <hr>
+	<div class="header-bg">
+		<div class="site-branding">
 
-      <footer>
-        <p>&copy; 2016 Panda World Scrum Team.</p>
-      </footer>
+			
+			<h1 class="site-title"><a href="https://pandaworldweb.wordpress.com/" rel="home" alt="Panda World">Panda World</a></h1>
+			<h2 class="site-description">Stay Foolish, Stay Hungry</h2>
 
-    </div>
+		</div><!-- .site-branding -->
 
-    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
-    <script src="jquery-3.1.1.min.js"></script>
-    <!-- Include all compiled plugins (below), or include individual files as needed -->
-    <script src="js/bootstrap.min.js"></script>
-  </body>
+	</div><!-- .header-bg -->
+
+	<header id="masthead" class="site-header" role="banner">
+
+		<div class="stick">
+
+			<nav id="site-navigation" class="main-navigation clear" role="navigation">
+				<button class="menu-toggle" aria-controls="primary-menu" aria-expanded="false">Menu</button>
+				<div class="menu-primary-container"><ul id="primary-menu" class="menu"><li id="menu-item-134" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-134"><a href="https://pandaworldweb.wordpress.com/">About Animal</a>
+<ul class="sub-menu">
+	<li id="menu-item-122" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-122"><a href="https://pandaworldweb.wordpress.com/2016/11/08/reproduction/">Mating &amp; Reproduction</a></li>
+	<li id="menu-item-121" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-121"><a href="https://pandaworldweb.wordpress.com/pandabehavior/">Behavior</a></li>
+	<li id="menu-item-145" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-145"><a href="https://pandaworldweb.wordpress.com/2016/11/08/habitat/">Habitat</a></li>
+	<li id="menu-item-33" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-33"><a href="https://pandaworldweb.wordpress.com/2016/11/08/animal-communication/">Animal Communications</a></li>
+	<li id="menu-item-17" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-17"><a target="_blank" href="https://pandaworldweb.wordpress.com/2016/11/08/diet-information/">Diet Information</a></li>
+	<li id="menu-item-19" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-19"><a href="https://pandaworldweb.wordpress.com/2016/11/08/panda-anatomy-biology/">Panda Anatomy and Biology</a></li>
+	<li id="menu-item-168" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-168"><a href="https://pandaworldweb.wordpress.com/2016/11/08/pandas-scientific-name-and-classification/">Panda Scientific Name and Classification</a></li>
+</ul>
+</li>
+<li id="menu-item-136" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-136"><a href="https://pandaworldweb.wordpress.com/">Miscellaneous</a>
+<ul class="sub-menu">
+	<li id="menu-item-83" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-83"><a href="https://pandaworldweb.wordpress.com/pandaintestingfact/">Miscellaneous Interesting Facts</a></li>
+	<li id="menu-item-16" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-16"><a href="https://pandaworldweb.wordpress.com/2016/11/08/panda-in-popular-culture/">Popular Culture</a></li>
+</ul>
+</li>
+<li id="menu-item-105" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-105"><a href="https://pandaworldweb.wordpress.com/galery/">Galery</a></li>
+<li id="menu-item-84" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-84"><a href="https://pandaworldweb.wordpress.com/blog/">Blog</a></li>
+</ul></div>			</nav><!-- #site-navigation -->
+
+		</div><!-- .sticky -->
+
+	</header><!-- .row #masthead -->
+
+	<div id="content" class="site-content">
+
+<div id="primary" class="content-area">
+
+	<main id="main" class="site-main" role="main">
+
+		
+			
+<article id="post-2" class="post-2 page type-page status-publish hentry">
+
+	<header class="entry-header">
+		<h2 class="entry-title">Giant Panda</h2>	</header><!-- .entry-header -->
+
+	<div class="entry-content">
+
+	<div class="featured-image">
+			</div><!-- .featured-image -->
+
+		<p><span style="font-weight:400;">The panda is not special just because it is one of the most well known and charismatic animals on earth. It is also a very peculiar species, with many unique and remarkable characteristics</span></p>
+			</div><!-- .entry-content -->
+
+	<footer class="entry-footer">
+		<span class="edit-link"><a class="post-edit-link" href="https://wordpress.com/page/pandaworldweb.wordpress.com/2">Edit</a></span>	</footer><!-- .entry-footer -->
+</article><!-- #post-## -->
+			
+		
+	</main><!-- #main -->
+
+</div><!-- #primary -->
+
+
+<div id="secondary" class="widget-area" role="complementary">
+
+    <aside id="search-3" class="widget widget_search"><h1 class="widget-title">Search Panda World</h1><form role="search" method="get" class="search-form" action="https://pandaworldweb.wordpress.com/">
+				<label>
+					<span class="screen-reader-text">Search for:</span>
+					<input type="search" class="search-field" placeholder="Search Term &hellip;" value="" name="s" />
+				</label>
+				<input type="submit" class="search-submit" value="Search" />
+			</form></aside>
+</div><!-- #secondary -->
+
+	</div><!-- #content -->
+
+	<div class="footer-wrap clear">
+
+		<footer id="colophon" class="site-footer" role="contentinfo">
+
+			
+			<div class="site-info">
+				<a href="https://wordpress.com/?ref=footer_website">Create a free website or blog at WordPress.com.</a>
+				
+							</div><!-- .site-info -->
+
+		</footer><!-- #colophon -->
+
+	</div><!-- .footer-wrap -->
+
+</div><!-- #page -->
+
+<!--  -->
+	<script type="text/javascript">
+	/* <![CDATA[ */
+		jQuery(document).ready( function($) {
+			function doFollowingHover() {
+				$('#wp-admin-bar-follow > a').unbind( '.unfollow' );
+
+				$('#wp-admin-bar-follow > a').bind( 'mouseover.unfollow', function() {
+
+					$(this).html( "Unfollow" ).parent( 'li' ).addClass( 'unfollow' );
+				});
+				$('#wp-admin-bar-follow > a').bind( 'mouseout.unfollow', function() {
+					$(this).html( "Following" ).parent( 'li' ).removeClass( 'unfollow' );
+				});
+			}
+			
+			$('#wp-admin-bar-follow > a').click( function( e ) {
+				$('#wp-admin-bar-follow > a').unbind( '.unfollow' );
+
+				e.preventDefault();
+
+				var link = $( this ), li = $( '#wp-admin-bar-follow' ), timeout = 0;
+
+				if ( li.hasClass( 'subscribed' ) ) {
+					li.removeClass( 'subscribed' ).removeClass( 'unfollow' );
+					link.html( "Follow" );
+
+					$('body').append( $( 'div.wpcom-bubble' ).removeClass( 'fadein' ) ).off( 'click.bubble' );
+
+					var action = 'ab_unsubscribe_from_blog';
+				} else {
+					li.addClass( 'subscribed' ).removeClass( 'unfollow' );
+					link.html( "Following" );
+
+						var left = 131 - link.width();
+						li.append( $( 'div.wpcom-bubble' ).css( { left: '-' + left + 'px' } ) );
+						$( 'div.bubble-txt', 'div.wpcom-bubble' ).html( "New posts from this blog will now appear in <a target=\"_blank\" href=\"http:\/\/wordpress.com\/\">your reader<\/a>. You can manage email alerts from your <a target=\"_blank\" href=\"http:\/\/wordpress.com\/following\/edit\/\">subscriptions page<\/a>." );
+
+						$( 'div.wpcom-bubble.action-bubble' ).addClass( 'fadein' );
+
+						setTimeout( function() {
+							$('body').on( 'click.bubble touchstart.bubble', function(e) {
+								if ( !$(e.target).hasClass('wpcom-bubble') && !$(e.target).parents( 'div.wpcom-bubble' ).length )
+									hideBubble();
+							});
+							setTimeout( hideBubble, 15000 );
+						}, 500 );
+
+					var action = 'ab_subscribe_to_blog';
+					$('#wp-admin-bar-follow > a').bind( 'mouseout.shift', function() {
+						doFollowingHover();
+						$(this).unbind( '.shift' );
+					});
+				}
+
+				var nonce = link.attr( 'href' ).split( '_wpnonce=' );
+				nonce = nonce[1];
+
+				$.post( "https:\/\/pandaworldweb.wordpress.com\/wp-admin\/admin-ajax.php", {
+					'action': action,
+					'_wpnonce': nonce,
+					'source': 'admin_bar',
+					'blog_id': 119515087				});
+			});
+		});
+	/* ]]> */
+	</script>
+<script type='text/javascript' src='//0.gravatar.com/js/gprofiles.js?ver=201645y'></script>
+<script type='text/javascript'>
+/* <![CDATA[ */
+var WPGroHo = {"my_hash":"4db4e5a92ffc66242424ba0ee07dfe5f"};
+/* ]]> */
+</script>
+<script type='text/javascript' src='https://s1.wp.com/wp-content/mu-plugins/gravatar-hovercards/wpgroho.js?m=1380573781h'></script>
+
+	<script>
+		//initialize and attach hovercards to all gravatars
+		jQuery( document ).ready( function( $ ) {
+
+			if (typeof Gravatar === "undefined"){
+				return;
+			}
+
+			if ( typeof Gravatar.init !== "function" ) {
+				return;
+			}			
+
+			Gravatar.profile_cb = function( hash, id ) {
+				WPGroHo.syncProfileData( hash, id );
+			};
+			Gravatar.my_hash = WPGroHo.my_hash;
+			Gravatar.init( 'body', '#wp-admin-bar-my-account' );
+		});
+	</script>
+
+		<div style="display:none">
+	</div>
+<div id="report-form-window" style="display:none;"></div><script type='text/javascript'>
+/* <![CDATA[ */
+var thickboxL10n = {"next":"Next >","prev":"< Prev","image":"Image","of":"of","close":"Close","noiframes":"This feature requires inline frames. You have iframes disabled or your browser does not support them.","loadingAnimation":"https:\/\/s1.wp.com\/wp-includes\/js\/thickbox\/loadingAnimation.gif"};
+/* ]]> */
+</script>
+<script type='text/javascript'>
+/* <![CDATA[ */
+var comment_like_text = {"loading":"Loading..."};
+/* ]]> */
+</script>
+<script type='text/javascript'>
+/* <![CDATA[ */
+var gatewayadminbar = ["1"];
+/* ]]> */
+</script>
+<script type='text/javascript'>
+/* <![CDATA[ */
+var wpNotesArgs = {"cacheBuster":"20160329","iframeUrl":"https:\/\/widgets.wp.com\/notificationsbeta\/","iframeAppend":"2","iframeScroll":"no","wide":"1"};
+/* ]]> */
+</script>
+<script type='text/javascript'>
+/* <![CDATA[ */
+var wpcom_tos_report_form = {"ajaxurl":"\/wp-admin\/admin-ajax.php","isLoggedoutUser":"","post_ID":"2","current_url":"https:\/\/pandaworldweb.wordpress.com","report_this_content":"Report this content"};
+/* ]]> */
+</script>
+<script type='text/javascript'>
+/* <![CDATA[ */
+var actionbardata = {"siteID":"119515087","siteName":"Panda World","siteURL":"http:\/\/pandaworldweb.wordpress.com","icon":"<img alt='' src='https:\/\/s1.wp.com\/i\/void.gif' class='avatar avatar-36' height='36' width='36' \/>","canManageOptions":"1","canCustomizeSite":"1","isFollowing":"","themeSlug":"pub\/gateway","signupURL":"https:\/\/wordpress.com\/start\/","loginURL":"https:\/\/pandaworldweb.wordpress.com\/wp-login.php?redirect_to=https%3A%2F%2Fpandaworldweb.wordpress.com%2F","themeURL":"https:\/\/wordpress.com\/themes\/gateway\/","xhrURL":"https:\/\/pandaworldweb.wordpress.com\/wp-admin\/admin-ajax.php","nonce":"f2895a5463","isSingular":"1","isFolded":"","isLoggedIn":"1","isMobile":"","subscribeNonce":"<input type=\"hidden\" id=\"_wpnonce\" name=\"_wpnonce\" value=\"81dacabe6a\" \/>","referer":"https:\/\/pandaworldweb.wordpress.com\/","canFollow":"","statusMessage":"","customizeLink":"https:\/\/pandaworldweb.wordpress.com\/wp-admin\/customize.php?url=https%3A%2F%2Fpandaworldweb.wordpress.com%2F","postID":"2","shortlink":"http:\/\/wp.me\/P85tkH-2","canEditPost":"1","editLink":"https:\/\/wordpress.com\/page\/pandaworldweb.wordpress.com\/2","i18n":{"view":"View Site","follow":"Follow","following":"Following","edit":"Edit","login":"Log In","signup":"Sign Up","customize":"Customize","report":"Report this content","themeInfo":"Get theme: Gateway","shortlink":"Copy shortlink","copied":"Copied","followedText":"New posts from this site will now appear in your <a href=\"https:\/\/wordpress.com\/\">Reader<\/a>","foldBar":"Collapse this bar","unfoldBar":"Expand this bar","editFollows":"Manage Sites I Follow","editSubs":"Manage Subscriptions","viewReader":"View Site in the Reader","subscribe":"Sign me up","enterEmail":"Enter your email address","followers":"","alreadyUser":"Already have a WordPress.com account? <a href=\"https:\/\/pandaworldweb.wordpress.com\/wp-login.php?redirect_to=https%3A%2F%2Fpandaworldweb.wordpress.com%2F\">Log in now.<\/a>"}};
+/* ]]> */
+</script>
+<script type='text/javascript' src='https://s1.wp.com/_static/??-eJyVkltSwzAMRTeEa6BMyw/DWvxQGyWxbPxI2t0jT9u0lBDgx5atczXyleUYhPGUgbJsk7QwoIFwWLXpQXIKyfTFQqq53KDptD9MwQW66F0RoS97pCR77Fj0UaBAo8j2EOcqKuuQhFZxxftCtYnjvPFOXHU/a5hzfCVOnbS1JS3TiAH+I/pycS/MDTjGQtFyrzKM6lgl5/BvMKkB+Yj+2/Pn+dRh4GaoEztvShI7nB1VIQsxGR/h1tlbQqs6QoI55zntSsrKNEtekc9wXkW1yZMYnn/lp9Etw9knESH4mPmh0d2fl/6KqW7WvzJFTL+7t6eX7Wa9ft1sH9tPoXEZ3A=='></script>
+<script type="text/javascript">
+// <![CDATA[
+(function() {
+try{
+  if ( window.external &&'msIsSiteMode' in window.external) {
+    if (window.external.msIsSiteMode()) {
+      var jl = document.createElement('script');
+      jl.type='text/javascript';
+      jl.async=true;
+      jl.src='/wp-content/plugins/ie-sitemode/custom-jumplist.php';
+      var s = document.getElementsByTagName('script')[0];
+      s.parentNode.insertBefore(jl, s);
+    }
+  }
+}catch(e){}
+})();
+// ]]>
+</script>		<script>
+			var _comscore = _comscore || [];
+			_comscore.push({
+				c1: "2",
+				c2: "7518284"
+			});
+			(function() {
+				var s = document.createElement("script"),
+					el = document.getElementsByTagName("script")[0];
+				s.async = true;
+				s.src = (document.location.protocol == "https:" ? "https://sb" : "http://b") + ".scorecardresearch.com/beacon.js";
+				el.parentNode.insertBefore(s, el);
+			})();
+		</script>
+		<noscript>
+			<p class="robots-nocontent"><img src="https://sb.scorecardresearch.com/p?c1=2&c2=7518284&c3=&c4=&c5=&c6=&c15=&cv=2.0&cj=1" alt="" style="display:none;" width="1" height="1" /></p>
+		</noscript><script src="//stats.wp.com/w.js?55" type="text/javascript" async defer></script>
+<script type="text/javascript">
+_tkq = window._tkq || [];
+_stq = window._stq || [];
+_tkq.push(['identifyUser', 42630111, 'lebenasa']);
+_tkq.push(['storeContext', {'blog_id':'119515087','blog_tz':'0','user_lang':'en','blog_lang':'en'}]);
+_stq.push(['view', {'blog':'119515087','v':'wpcom','tz':'0','user':'1','user_id':'42630111','post':'2','subd':'pandaworldweb'}]);
+_stq.push(['extra', {'crypt':'UE40eW5QN0p8M2Y/RE1zNDZ8S252Wis9XUQyb3YrcUVIU2R0VH5TdXIyfFgyfjVBN0kxOHx1dltNeFE2PUhSbTc4TFQ/by1wUUouNUZwLHMrVHh8c0MuQnpJZnRoUjB0Q1tHZHdqX0szLDJsRj14WENyXS90UVN8aWUrN1JaMndtNGw4LUhzSDZkVzgmd1NYY2pBMnZwJVUrZnZLS3VHK3NjTkNPLWguSndiUmsvWk5qOEE5eXBoOX5ycS8wPzRpXWZBfHBfJVJkQkFUNnZVdT9sRngmTVkyWDZTQlgvPz9wJlt0bytmdWdiUkR8TG5rNzEraFtfMn4uNE12TW1NPTJTJjB2Vm5CVz1sLHZObUJPWUs='}]);
+	</script>
+<noscript><img src="https://pixel.wp.com/b.gif?v=noscript" style="height:0px;width:0px;overflow:hidden" alt="" /></noscript>
+	<script type="text/javascript">
+		(function() {
+			var request, b = document.body, c = 'className', cs = 'customize-support', rcs = new RegExp('(^|\\s+)(no-)?'+cs+'(\\s+|$)');
+
+			request = true;
+
+			b[c] = b[c].replace( rcs, ' ' );
+			b[c] += ( window.postMessage && request ? ' ' : ' no-' ) + cs;
+		}());
+	</script>
+			<div id="wpadminbar" class="nojq nojs ltr">
+							<a class="screen-reader-shortcut" href="#wp-toolbar" tabindex="1">Skip to toolbar</a>
+						<div class="quicklinks" id="wp-toolbar" role="navigation" aria-label="Toolbar" tabindex="0">
+						<ul id="wp-admin-bar-root-default" class="ab-top-menu">
+			
+		<li id="wp-admin-bar-blog" class="menupop my-sites"><a class="ab-item"  aria-haspopup="true" href="https://wordpress.com/stats/pandaworldweb.wordpress.com">My Sites</a>			<div class="ab-sub-wrapper">		<ul id="wp-admin-bar-blog-default" class="ab-submenu">
+			
+		<li id="wp-admin-bar-blog-info" class="current-site">		<div class="ab-item ab-empty-item" ><div class="ab-site-icon"></div><span class="ab-site-title">Panda World</span><span class="ab-site-description">pandaworldweb.wordpress.com</span></div>		</li>
+		<li id="wp-admin-bar-switch-site" class="menupop"><a class="ab-item"  aria-haspopup="true" href="https://wordpress.com/sites">Switch Site</a>			<div class="ab-sub-wrapper">		<ul id="wp-admin-bar-my-sites" class="ab-sub-secondary ab-submenu">
+			
+		<li id="wp-admin-bar-blog-43223139" class="menupop"><a class="ab-item"  aria-haspopup="true" href="http://pyjournal.wordpress.com/"><img src="https://secure.gravatar.com/blavatar/2e8ef8014511dbc5d80a6e071fe6ca6b?s=32&#038;d=https%3A%2F%2Fs2.wp.com%2Fi%2Flogo%2Fw-32.png" alt="Blavatar" width="16" height="16" />pyjournal - Indonesia</a>			<div class="ab-sub-wrapper">		<ul id="wp-admin-bar-blog-43223139-default" class="ab-submenu">
+			
+		<li id="wp-admin-bar-blog-43223139-d"><a class="ab-item"  href="https://pyjournal.wordpress.com/wp-admin/">WP Admin</a>		</li>
+		<li id="wp-admin-bar-blog-43223139-n"><a class="ab-item"  href="https://wordpress.com/post/pyjournal.wordpress.com">New Post</a>		</li>
+		<li id="wp-admin-bar-blog-43223139-s"><a class="ab-item"  href="https://wordpress.com/stats/pyjournal.wordpress.com">Stats</a>		</li>
+		<li id="wp-admin-bar-blog-43223139-c"><a class="ab-item"  href="https://pyjournal.wordpress.com/wp-admin/edit-comments.php">Manage Comments</a>		</li>
+		<li id="wp-admin-bar-blog-43223139-v"><a class="ab-item"  href="http://pyjournal.wordpress.com/">Read Blog</a>		</li>		</ul>
+	</div>		</li>
+		<li id="wp-admin-bar-blog-119515087" class="menupop"><a class="ab-item"  aria-haspopup="true" href="https://pandaworldweb.wordpress.com/"><img src="https://s2.wp.com/i/logo/w-32.png" alt="Blavatar" width="16" height="16" />Panda World</a>			<div class="ab-sub-wrapper">		<ul id="wp-admin-bar-blog-119515087-default" class="ab-submenu">
+			
+		<li id="wp-admin-bar-blog-119515087-d"><a class="ab-item"  href="https://pandaworldweb.wordpress.com/wp-admin/">WP Admin</a>		</li>
+		<li id="wp-admin-bar-blog-119515087-n"><a class="ab-item"  href="https://wordpress.com/post/pandaworldweb.wordpress.com">New Post</a>		</li>
+		<li id="wp-admin-bar-blog-119515087-s"><a class="ab-item"  href="https://wordpress.com/stats/pandaworldweb.wordpress.com">Stats</a>		</li>
+		<li id="wp-admin-bar-blog-119515087-c"><a class="ab-item"  href="https://pandaworldweb.wordpress.com/wp-admin/edit-comments.php">Manage Comments</a>		</li>
+		<li id="wp-admin-bar-blog-119515087-v"><a class="ab-item"  href="https://pandaworldweb.wordpress.com/">Read Blog</a>		</li>		</ul>
+	</div>		</li>		</ul>
+	</div>		</li>
+		<li id="wp-admin-bar-view-site" class="mb-icon"><a class="ab-item"  href="https://pandaworldweb.wordpress.com/">View Site</a>		</li>
+		<li id="wp-admin-bar-dashboard-top" class="mb-icon"><a class="ab-item"  href="https://pandaworldweb.wordpress.com/wp-admin/">WP Admin</a>		</li>
+		<li id="wp-admin-bar-blog-stats" class="mb-icon"><a class="ab-item"  href="https://wordpress.com/stats/pandaworldweb.wordpress.com">Stats </a>		</li>
+		<li id="wp-admin-bar-plan" class="inline-action">		<div class="ab-item ab-empty-item" ><a href="https://wordpress.com/plans/pandaworldweb.wordpress.com" class="ab-item ab-primary mb-icon" id="wp-admin-bar-plan">Plan</a><a href="https://wordpress.com/plans/pandaworldweb.wordpress.com" class="ab-secondary" id="wp-admin-bar-plan-badge">Free</a></div>		</li>
+		<li id="wp-admin-bar-comments" class="mb-icon"><a class="ab-item"  href="https://pandaworldweb.wordpress.com/wp-admin/edit-comments.php">Comments</a>		</li>		</ul>
+			<ul id="wp-admin-bar-publish" class="ab-submenu">
+			
+		<li id="wp-admin-bar-publish-header" class="ab-submenu-header">		<div class="ab-item ab-empty-item" >Publish</div>		</li>
+		<li id="wp-admin-bar-new-post" class="inline-action">		<div class="ab-item ab-empty-item" ><a href="https://wordpress.com/posts/pandaworldweb.wordpress.com" class="ab-item ab-primary mb-icon" id="wp-admin-bar-edit-post">Blog Posts</a><a href="https://wordpress.com/post/pandaworldweb.wordpress.com" class="ab-secondary" id="wp-admin-bar-new-post">Add</a></div>		</li>
+		<li id="wp-admin-bar-new-page" class="inline-action">		<div class="ab-item ab-empty-item" ><a href="https://wordpress.com/pages/pandaworldweb.wordpress.com" class="ab-item ab-primary mb-icon" id="wp-admin-bar-edit-page">Pages</a><a href="https://wordpress.com/page/pandaworldweb.wordpress.com" class="ab-secondary" id="wp-admin-bar-new-page">Add</a></div>		</li>		</ul>
+			<ul id="wp-admin-bar-look-and-feel" class="ab-submenu">
+			
+		<li id="wp-admin-bar-look-and-feel-header" class="ab-submenu-header">		<div class="ab-item ab-empty-item" >Personalize</div>		</li>
+		<li id="wp-admin-bar-themes" class="mb-icon"><a class="ab-item"  href="https://wordpress.com/design/pandaworldweb.wordpress.com">Themes</a>		</li>
+		<li id="wp-admin-bar-customize" class="hide-if-no-customize mb-icon"><a class="ab-item"  href="https://pandaworldweb.wordpress.com/wp-admin/customize.php?url=https%3A%2F%2Fpandaworldweb.wordpress.com%2F">Customize</a>		</li>
+		<li id="wp-admin-bar-menus" class="mb-icon"><a class="ab-item"  href="https://pandaworldweb.wordpress.com/wp-admin/nav-menus.php">Menus</a>		</li>		</ul>
+			<ul id="wp-admin-bar-configuration" class="ab-submenu">
+			
+		<li id="wp-admin-bar-configuration-header" class="ab-submenu-header">		<div class="ab-item ab-empty-item" >Configure</div>		</li>
+		<li id="wp-admin-bar-sharing" class="mb-icon"><a class="ab-item"  href="https://pandaworldweb.wordpress.com/wp-admin/options-general.php?page=sharing">Sharing</a>		</li>
+		<li id="wp-admin-bar-users-toolbar" class="inline-action">		<div class="ab-item ab-empty-item" ><a href="https://wordpress.com/people/team/pandaworldweb.wordpress.com" class="ab-item ab-primary mb-icon" id="wp-admin-bar-people">People</a><a href="https://pandaworldweb.wordpress.com/wp-admin/users.php?page=wpcom-invite-users" class="ab-secondary" id="wp-admin-bar-people-add">Add</a></div>		</li>
+		<li id="wp-admin-bar-domains" class="inline-action">		<div class="ab-item ab-empty-item" ><a href="https://wordpress.com/domains/pandaworldweb.wordpress.com" class="ab-item ab-primary mb-icon" id="wp-admin-bar-domains">Domains</a><a href="https://wordpress.com/domains/add/pandaworldweb.wordpress.com" class="ab-secondary" id="wp-admin-bar-domains-add">Add</a></div>		</li>
+		<li id="wp-admin-bar-blog-settings" class="mb-icon"><a class="ab-item"  href="https://wordpress.com/settings/general/pandaworldweb.wordpress.com">Settings</a>		</li>		</ul>
+			<ul id="wp-admin-bar-blog-secondary" class="ab-sub-secondary ab-submenu">
+			
+		<li id="wp-admin-bar-wpcom_report_url"><a class="ab-item"  href="https://en.wordpress.com/complaints/">Report this content</a>		</li>		</ul>
+	</div>		</li>
+		<li id="wp-admin-bar-jumptotop-button-menu"><a class="ab-item"  href="#"><div id="jumptotop"><span class="noticon noticon-top"></span></div></a>		</li>
+		<li id="wp-admin-bar-newdash" class="menupop"><a class="ab-item"  aria-haspopup="true" href="https://wordpress.com/">Reader</a>			<div class="ab-sub-wrapper">		<ul id="wp-admin-bar-newdash-default" class="ab-submenu">
+			
+		<li id="wp-admin-bar-streams-header" class="ab-submenu-header">		<div class="ab-item ab-empty-item" >Streams</div>		</li>
+		<li id="wp-admin-bar-following" class="inline-action">		<div class="ab-item ab-empty-item" ><a href="https://wordpress.com/" class="ab-item ab-primary mb-icon" id="wp-admin-bar-followed-sites">Followed Sites</a><a href="https://wordpress.com/following/edit" class="ab-secondary" id="wp-admin-bar-reader-followed-sites-manage">Manage</a></div>		</li>
+		<li id="wp-admin-bar-discover-discover" class="mb-icon-spacer"><a class="ab-item"  href="https://wordpress.com/discover">Discover</a>		</li>
+		<li id="wp-admin-bar-discover-search" class="mb-icon-spacer"><a class="ab-item"  href="https://wordpress.com/read/search">Search</a>		</li>
+		<li id="wp-admin-bar-discover-recommended-blogs" class="mb-icon-spacer"><a class="ab-item"  href="https://wordpress.com/recommendations">Recommendations</a>		</li>
+		<li id="wp-admin-bar-my-activity-my-likes" class="mb-icon-spacer"><a class="ab-item"  href="https://wordpress.com/activities/likes">My Likes</a>		</li>		</ul>
+	</div>		</li>
+		<li id="wp-admin-bar-stats"><a class="ab-item"  href="https://wordpress.com/stats/pandaworldweb.wordpress.com"><div><script type='text/javascript'>var src;if(typeof(window.devicePixelRatio)=='undefined'||window.devicePixelRatio<2){src='/wp-includes/charts/admin-bar-hours-scale.php';}else{src='/wp-includes/charts/admin-bar-hours-scale-2x.php';}document.write('<img style=\'vertical-align: baseline\' src=\''+src+'\' alt=\'Stats\' title=\'Showing site views per hour for the last 48 hours. Click for full Site Stats.\' />');</script></div></a>		</li>		</ul>
+			<ul id="wp-admin-bar-top-secondary" class="ab-top-secondary ab-top-menu">
+			
+		<li id="wp-admin-bar-notes" class="menupop">		<div class="ab-item ab-empty-item" ><span id="wpnt-notes-unread-count" class="wpnt-loading wpn-unread"><span class="noticon noticon-standard"></span></span></div><div id="wpnt-notes-panel2" style="display:none" lang="en" dir="ltr"><div class="wpnt-notes-panel-header"><span class="wpnt-notes-header"></span><span class="wpnt-notes-panel-link"></span></div></div>		</li>
+		<li id="wp-admin-bar-my-account" class="menupop with-avatar"><a class="ab-item"  aria-haspopup="true" href="https://wordpress.com/me/"><img alt='' src='https://1.gravatar.com/avatar/4db4e5a92ffc66242424ba0ee07dfe5f?s=32&#038;d=mm&#038;r=G' class='avatar avatar-32' height='32' width='32' /><span class="ab-text">Me</span></a>			<div class="ab-sub-wrapper">		<ul id="wp-admin-bar-user-actions" class="ab-submenu">
+			
+		<li id="wp-admin-bar-user-info" class="user-info user-info-item">		<div class="ab-item ab-empty-item" tabindex="-1"><img alt='' src='https://1.gravatar.com/avatar/4db4e5a92ffc66242424ba0ee07dfe5f?s=128&#038;d=mm&#038;r=G' class='avatar avatar-128' height='128' width='128' /><span class="display-name">lebenasa</span><span class="username"><a class="at-username" href="http://gravatar.com/lebenasa">lebenasa</a>&nbsp;&middot;&nbsp;<a href="https://pandaworldweb.wordpress.com/wp-login.php?action=logout&amp;redirect_to=https%3A%2F%2Fwordpress.com%2F%3Fapppromo&amp;_wpnonce=b6112eca0c">Sign Out</a></span></div>		</li>
+		<li id="wp-admin-bar-profile-header" class="ab-submenu-header">		<div class="ab-item ab-empty-item" >Profile</div>		</li>
+		<li id="wp-admin-bar-my-profile" class="mb-icon"><a class="ab-item"  href="https://wordpress.com/me">My Profile</a>		</li>
+		<li id="wp-admin-bar-account-settings" class="mb-icon"><a class="ab-item"  href="https://wordpress.com/me/account">Account Settings</a>		</li>
+		<li id="wp-admin-bar-billing" class="mb-icon"><a class="ab-item"  href="https://wordpress.com/me/purchases/billing">Billing History</a>		</li>
+		<li id="wp-admin-bar-security" class="mb-icon"><a class="ab-item"  href="https://wordpress.com/me/security">Security</a>		</li>
+		<li id="wp-admin-bar-notifications" class="mb-icon"><a class="ab-item"  href="https://wordpress.com/me/notifications">Notifications</a>		</li>
+		<li id="wp-admin-bar-special-header" class="ab-submenu-header">		<div class="ab-item ab-empty-item" >Special</div>		</li>
+		<li id="wp-admin-bar-get-apps" class="mb-icon"><a class="ab-item"  href="https://wordpress.com/me/get-apps">Get Apps</a>		</li>
+		<li id="wp-admin-bar-next-steps" class="mb-icon"><a class="ab-item"  href="https://wordpress.com/me/next">Next Steps</a>		</li>
+		<li id="wp-admin-bar-help" class="mb-icon"><a class="ab-item"  href="https://wordpress.com/help">Help</a>		</li>		</ul>
+	</div>		</li>
+		<li id="wp-admin-bar-ab-new-post"><a class="ab-item"  href="https://wordpress.com/post/pandaworldweb.wordpress.com"></a>		</li>		</ul>
+				</div>
+							<a class="screen-reader-shortcut" href="https://pandaworldweb.wordpress.com/wp-login.php?action=logout&#038;_wpnonce=b6112eca0c">Log Out</a>
+					</div>
+
+	
+<script type="text/javascript">
+/* <![CDATA[ */
+var clickDebugLink;
+
+jQuery(document).ready( function($) {
+	var single = false, w = 1000,
+		supe = false;
+
+	$(document.body).load(function(){ $('#wpadminbar img.grav-hashed').removeClass('grav-hashed'); }); // hack to hide the gravatar hovercard
+
+	if ( single && supe )
+		w = 1385;
+	else if ( supe )
+		w = 1200;
+
+	// debug bar extra
+	clickDebugLink = function( parent_id, obj ) {
+
+		$('#'+parent_id).children('div').hide();
+
+		document.getElementById( obj.href.substr( obj.href.indexOf( '#' ) + 1 ) ).style.display = 'block';
+		$( obj.href.substr( obj.href.indexOf( '#' ) ) ).show()
+
+		$(obj).parent().addClass('current').siblings('li').removeClass('current');
+
+		return false;
+	};
+
+	$( '#wpadminbar #wp-admin-bar-shortlink' ).click( function() {
+		$( '#adminbar-shortlink-input' ).select();
+	});
+
+	// skip tap-to-hover on site switcher for mobile
+	if ( 'ontouchstart' in window ) {
+		$('#wp-admin-bar-switch-site').on( 'touchstart', function( event ) {
+			if ( $( window ).width() > 782 ) {
+				return;
+			}
+			event.stopPropagation();
+			$( event.target ).first( 'a' ).click();
+		});
+	}
+
+});
+/* ]]> */
+</script>
+	<div class="wpcom-bubble action-bubble">
+		<div class="bubble-txt"></div>
+	</div>
+	<script type="text/javascript">function hideBubble() { jQuery('body').append( jQuery( 'div.wpcom-bubble' ).removeClass( 'fadein' ) ).off( 'click.bubble touchstart.bubble' ); jQuery(document).off( 'scroll.bubble' ); };</script>
+		<script type="text/javascript">
+	jQuery( '#wp-admin-bar-jumptotop-button-menu a' ).click( function( e ) {
+		e.preventDefault();
+		jQuery( 'html, body' ).animate( { scrollTop: 0 }, 'fast' );
+	} );
+	function hideShowTbJumpToTop() {
+		var total_width = 0;
+		// Calculate total width taken by items minus our button to see if it'll
+		// overlap with other toolbar menus.
+		jQuery( '#wp-admin-bar-root-default > li' ).each( function() {
+			var self = jQuery( this );
+			if ( 'wp-admin-bar-jumptotop-button-menu' != self.attr( 'id' ) )
+				total_width += self.width();
+		});
+		if ( jQuery( '#wp-admin-bar-jumptotop-button-menu' ).position()['left'] - total_width < 10 ) {
+			jQuery( '#jumptotop' ).animate( { 'top': '-50px' }, 'fast' );
+		} else if (  jQuery( window ).scrollTop() >= 350 && parseInt( jQuery( '#jumptotop' ).css( 'top' ) ) < 0 ) {
+			if ( jQuery( '#wp-admin-bar-jumptotop-button-menu' ).position()['left'] - total_width < 10 )
+			   return;
+			jQuery( '#jumptotop' ).animate( { 'top': 0 }, 'fast' );
+		} else if (  jQuery( window ).scrollTop() < 1 && parseInt( jQuery( '#jumptotop' ).css( 'top' ) ) >= 0 ) {
+			jQuery( '#jumptotop' ).animate( { 'top': '-50px' }, 'fast' );
+		}
+	}
+	// handle on page load if auto scrolling to a position
+	hideShowTbJumpToTop();
+	// bind to scrolll event
+	var jumpToTopTimer = null;
+	jQuery( window ).scroll( function() {
+		clearTimeout( jumpToTopTimer );
+		jumpToTopTimer = setTimeout( jumpToTopRefresh, 150 );
+	} );
+	var jumpToTopRefresh = function() {
+		hideShowTbJumpToTop();
+	};
+	</script>
+	<script>
+if ( 'object' === typeof wpcom_mobile_user_agent_info ) {
+
+	wpcom_mobile_user_agent_info.init();
+	var mobileStatsQueryString = "";
+	
+	if( false !== wpcom_mobile_user_agent_info.matchedPlatformName )
+		mobileStatsQueryString += "&x_" + 'mobile_platforms' + '=' + wpcom_mobile_user_agent_info.matchedPlatformName;
+	
+	if( false !== wpcom_mobile_user_agent_info.matchedUserAgentName )
+		mobileStatsQueryString += "&x_" + 'mobile_devices' + '=' + wpcom_mobile_user_agent_info.matchedUserAgentName;
+	
+	if( wpcom_mobile_user_agent_info.isIPad() )
+		mobileStatsQueryString += "&x_" + 'ipad_views' + '=' + 'views';
+
+	if( "" != mobileStatsQueryString ) {
+		new Image().src = document.location.protocol + '//pixel.wp.com/g.gif?v=wpcom-no-pv' + mobileStatsQueryString + '&baba=' + Math.random();
+	}
+	
+}
+</script>
+</body>
 </html>
